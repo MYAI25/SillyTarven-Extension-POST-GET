@@ -1,0 +1,11 @@
+{
+    "name": "Reqa",
+    "display_name": "Reqa - HTTP Requests",
+    "author": "YourName",
+    "version": "1.0.0",
+    "description": "A simple extension to send GET and POST requests and view the response directly within SillyTavern.",
+    "loading_order": 99,
+    "js": "index.js",
+    "css": "style.css",
+    "tags": ["utility"]
+}

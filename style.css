@@ -1,0 +1,67 @@
+/* Main container for the Reqa extension */
+#reqa-container {
+    background-color: #2e2e2e;
+    padding: 15px;
+    border: 1px solid #444;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Heading style */
+.reqa-heading {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #eee;
+}
+
+/* Grouping for labels and inputs */
+.reqa-input-group {
+    margin-bottom: 15px;
+}
+
+.reqa-input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ccc;
+    font-weight: bold;
+}
+
+/* Common style for text inputs and textareas (uses SillyTavern's .text_pole class) */
+#reqa-url,
+#reqa-body {
+    width: 100%;
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+/* Container for the action buttons */
+.reqa-button-group {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px; /* Adds space between buttons */
+    margin-bottom: 20px;
+}
+
+/* Styling for the GET and POST buttons (uses SillyTavern's .menu_button class) */
+#reqa-get-btn, #reqa-post-btn {
+    flex-grow: 1; /* Makes buttons share the space evenly */
+}
+
+/* Area to display the server response */
+.reqa-response-area h5 {
+    color: #eee;
+    margin-bottom: 5px;
+}
+
+#reqa-response {
+    background-color: #1e1e1e;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #555;
+    color: #fff;
+    white-space: pre-wrap; /* Allows text to wrap */
+    word-wrap: break-word;
+    min-height: 100px;
+    font-family: monospace; /* Use a monospaced font for code/JSON */
+}

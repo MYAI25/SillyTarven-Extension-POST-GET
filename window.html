@@ -1,0 +1,19 @@
+<div id="reqa-container" class="reqa-container">
+    <h4 class="reqa-heading">Reqa - HTTP Client</h4>
+    <div class="reqa-input-group">
+        <label for="reqa-url">URL:</label>
+        <input type="text" id="reqa-url" class="text_pole" placeholder="Enter URL (e.g., https://api.example.com/data)">
+    </div>
+    <div class="reqa-input-group">
+        <label for="reqa-body">POST Body (JSON):</label>
+        <textarea id="reqa-body" class="text_pole" rows="5" placeholder='{ "key": "value" }'></textarea>
+    </div>
+    <div class="reqa-button-group">
+        <button id="reqa-get-btn" class="menu_button">Send GET</button>
+        <button id="reqa-post-btn" class="menu_button">Send POST</button>
+    </div>
+    <div class="reqa-response-area">
+        <h5>Response:</h5>
+        <pre id="reqa-response"></pre>
+    </div>
+</div>
